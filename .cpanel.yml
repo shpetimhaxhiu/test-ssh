@@ -3,3 +3,4 @@ deployment:
       tasks:
         - export DEPLOYPATH=/home/klikanet/public_html/test-ssh  # Add /<app_folder> if required
         - /bin/cp -r * $DEPLOYPATH
+        - /bin/cp -r $DEPLOYPATH /home/klikanet/public_html/test2
