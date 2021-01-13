@@ -2,6 +2,4 @@
 deployment:
       tasks:
         - export DEPLOYPATH=/home/klikanet/public_html/test-ssh  # Add /<app_folder> if required
-        - /bin cp * $DEPLOYPATH                           #copy all from root
-        
-        
+        - /bin/cp -r * $DEPLOYPATH
